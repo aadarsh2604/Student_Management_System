@@ -1,0 +1,71 @@
+body
+{
+  background-image:url('bg5.jpg');
+}
+#mymenu
+{
+  background-color:rgba(0,0,0,0.3);
+  color:white;
+  text-align:right;
+}
+#mymenu ul li
+{
+  display:inline-block;
+
+  padding:20px;
+}
+#mymenu ul li:hover
+{
+    background:linear-gradient(blue,red);
+	color:white;
+}
+table
+{
+  margin-top:150px;
+  background-color:rgb(0,0,0);
+  color:white;
+  box-shadow: 15px 15px 15px black;
+  padding:20px;
+}
+.B
+{
+  background:linear-gradient(red,blue);
+  color:white;
+  padding:5px;
+  border-radius: 0px 10px 0px 10px;
+}
+.B:hover
+{
+  background:linear-gradient(blue,red);
+  color:white;
+  padding:5px;
+  border-radius: 10px 0px 10px 0px;
+}
+.A
+{
+  border-radius:20px;
+}
+.C
+{
+	text-align:center;
+	color:yellow;
+}
+#invalid
+{
+  background-color:white;
+  color:red;
+  font-weight:25px;
+  font-size:25px;
+  margin-top:15px;
+  margin-left:5px;
+  text-align:center;
+}
+#invalid :hover
+{
+  background-color:red;
+  color:white;
+  font-size:25px;
+  margin-top:15px;
+  margin-left:5px;
+  text-align:center;
+}
